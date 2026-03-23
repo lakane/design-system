@@ -122,10 +122,10 @@ When generating any UI using this system, follow these rules without exception:
 
 ## Example prompt for AI tools
 
-Use this as a starting template when generating new components:
+Use this as a starting template when generating new components: 
 
 ```
-Using the design system at [this repo URL], generate a [component name] component.
+Using the design system at https://github.com/lakane/design-system, generate a [component name] component.
 Use Tailwind CSS with the token values defined in tokens-studio.json.
 Follow all brand rules in brand-guidelines.md.
 Use Plus Jakarta Sans, sentence case, no shadows, flat fills only.
