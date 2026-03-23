@@ -1,0 +1,85 @@
+{
+  "global": {
+    "color-green-50":  { "value": "#EAF3DE", "type": "color" },
+    "color-green-400": { "value": "#639922", "type": "color" },
+    "color-green-700": { "value": "#3B6D11", "type": "color" },
+    "color-green-900": { "value": "#27500A", "type": "color" },
+
+    "color-neutral-0":   { "value": "#FFFFFF", "type": "color" },
+    "color-neutral-50":  { "value": "#F1EFE8", "type": "color" },
+    "color-neutral-200": { "value": "#D3D1C7", "type": "color" },
+    "color-neutral-400": { "value": "#888780", "type": "color" },
+    "color-neutral-900": { "value": "#2C2C2A", "type": "color" },
+
+    "color-amber-50":  { "value": "#FAEEDA", "type": "color" },
+    "color-amber-700": { "value": "#854F0B", "type": "color" },
+
+    "color-red-50":  { "value": "#FCEBEB", "type": "color" },
+    "color-red-700": { "value": "#A32D2D", "type": "color" },
+
+    "color-blue-50":  { "value": "#E6F1FB", "type": "color" },
+    "color-blue-700": { "value": "#185FA5", "type": "color" },
+
+    "brand-primary":       { "value": "{color-green-400}", "type": "color" },
+    "brand-primary-light": { "value": "{color-green-50}",  "type": "color" },
+    "brand-primary-dark":  { "value": "{color-green-700}", "type": "color" },
+
+    "surface-page":    { "value": "{color-neutral-50}",  "type": "color" },
+    "surface-card":    { "value": "{color-neutral-0}",   "type": "color" },
+
+    "border-default":  { "value": "{color-neutral-200}", "type": "color" },
+    "border-focus":    { "value": "{brand-primary}",     "type": "color" },
+
+    "text-primary":    { "value": "{color-neutral-900}", "type": "color" },
+    "text-secondary":  { "value": "{color-neutral-400}", "type": "color" },
+    "text-on-brand":   { "value": "{color-neutral-0}",   "type": "color" },
+
+    "semantic-success-text":       { "value": "{color-green-700}", "type": "color" },
+    "semantic-success-background": { "value": "{color-green-50}",  "type": "color" },
+    "semantic-warning-text":       { "value": "{color-amber-700}", "type": "color" },
+    "semantic-warning-background": { "value": "{color-amber-50}",  "type": "color" },
+    "semantic-danger-text":        { "value": "{color-red-700}",   "type": "color" },
+    "semantic-danger-background":  { "value": "{color-red-50}",    "type": "color" },
+    "semantic-info-text":          { "value": "{color-blue-700}",  "type": "color" },
+    "semantic-info-background":    { "value": "{color-blue-50}",   "type": "color" },
+
+    "font-family-base": { "value": "Plus Jakarta Sans", "type": "fontFamilies" },
+
+    "font-weight-regular": { "value": "Regular", "type": "fontWeights" },
+    "font-weight-medium":  { "value": "Medium",  "type": "fontWeights" },
+
+    "font-size-h1":      { "value": "22", "type": "fontSizes" },
+    "font-size-h2":      { "value": "18", "type": "fontSizes" },
+    "font-size-h3":      { "value": "15", "type": "fontSizes" },
+    "font-size-body":    { "value": "14", "type": "fontSizes" },
+    "font-size-caption": { "value": "12", "type": "fontSizes" },
+
+    "line-height-h1":      { "value": "1.3", "type": "lineHeights" },
+    "line-height-h2":      { "value": "1.4", "type": "lineHeights" },
+    "line-height-h3":      { "value": "1.5", "type": "lineHeights" },
+    "line-height-body":    { "value": "1.6", "type": "lineHeights" },
+    "line-height-caption": { "value": "1.5", "type": "lineHeights" },
+
+    "spacing-1":  { "value": "4",  "type": "spacing" },
+    "spacing-2":  { "value": "8",  "type": "spacing" },
+    "spacing-3":  { "value": "12", "type": "spacing" },
+    "spacing-4":  { "value": "16", "type": "spacing" },
+    "spacing-6":  { "value": "24", "type": "spacing" },
+    "spacing-8":  { "value": "32", "type": "spacing" },
+    "spacing-12": { "value": "48", "type": "spacing" },
+    "spacing-16": { "value": "64", "type": "spacing" },
+
+    "border-radius-sm":   { "value": "4",    "type": "borderRadius" },
+    "border-radius-md":   { "value": "8",    "type": "borderRadius" },
+    "border-radius-lg":   { "value": "12",   "type": "borderRadius" },
+    "border-radius-full": { "value": "9999", "type": "borderRadius" },
+
+    "border-width-hairline": { "value": "0.5", "type": "borderWidth" },
+    "border-width-default":  { "value": "1",   "type": "borderWidth" },
+    "border-width-focus":    { "value": "2",   "type": "borderWidth" },
+
+    "icon-size-sm": { "value": "16", "type": "sizing" },
+    "icon-size-md": { "value": "20", "type": "sizing" },
+    "icon-size-lg": { "value": "24", "type": "sizing" }
+  }
+}
