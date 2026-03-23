@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Design tokens from tokens-studio.json */
+  
+  /* Greens */
+  --color-green-50: #EAF3DE;
+  --color-green-400: #639922;
+  --color-green-700: #3B6D11;
+  --color-green-900: #27500A;
+  
+  /* Neutrals */
+  --color-neutral-0: #FFFFFF;
+  --color-neutral-50: #F1EFE8;
+  --color-neutral-200: #D3D1C7;
+  --color-neutral-400: #888780;
+  --color-neutral-900: #2C2C2A;
+  
+  /* Amber */
+  --color-amber-50: #FAEEDA;
+  --color-amber-700: #854F0B;
+  
+  /* Red */
+  --color-red-50: #FCEBEB;
+  --color-red-700: #A32D2D;
+  
+  /* Blue */
+  --color-blue-50: #E6F1FB;
+  --color-blue-700: #185FA5;
+  
+  /* Semantic tokens */
+  --color-success-background: var(--color-green-50);
+  --color-success-text: var(--color-green-700);
+  --color-warning-background: var(--color-amber-50);
+  --color-warning-text: var(--color-amber-700);
+  --color-danger-background: var(--color-red-50);
+  --color-danger-text: var(--color-red-700);
+  --color-info-background: var(--color-blue-50);
+  --color-info-text: var(--color-blue-700);
+  
+  /* Surface tokens */
+  --color-surface-page: var(--color-neutral-50);
+  --color-surface-card: var(--color-neutral-0);
+  
+  /* Text tokens */
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-400);
+  
+  /* Border tokens */
+  --color-border-default: var(--color-neutral-200);
+  
+  /* Fonts */
+  --font-family-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-surface-page);
+  color: var(--color-text-primary);
+}
