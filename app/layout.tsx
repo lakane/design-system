@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { Sidebar } from "@/components/sidebar";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -9,7 +10,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Design System - Status Badge",
+  title: "Design System",
   description: "Customer service software design system components",
 };
 
@@ -20,7 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={plusJakartaSans.className}>{children}</body>
+      <body className={plusJakartaSans.className}>
+        <div style={{ display: "flex", minHeight: "100vh" }}>
+          <Sidebar />
+          <div style={{ flex: 1 }}>{children}</div>
+        </div>
+      </body>
     </html>
   );
 }
